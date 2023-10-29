@@ -1,0 +1,17 @@
+module.exports.config = {
+	name: "fuid",
+	version: "1.0.0",
+	hasPermssion: 0,
+	credits: "Joshua Sy",
+	description: "get uid using fb link",
+	commandCategory: "tools",
+	usages: "link",
+  cooldowns: 1
+};
+module.exports.run = async function ({ api, event, args, Users }) {
+const axios = require("axios");
+let text = args.join(" ");
+if (!text) return api.sendMessage(`Wrong fomat\nUse: ${global.config.PREFIX}${this.config.name} facebook profile link!`, event.threadID, event.messageID);
+const res = await axios.get(`https://api.reikomods.repl.co/sus/fuid?link=${text}`);
+api.sendMessage(res.data.result, event.threadID, event.messageID);
+}
