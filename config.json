@@ -215,5 +215,9 @@
     },
     "rank": {
         "APIKEY": "571752207151901|AC-zG86sv6U6kpnT0_snIHBOHJc"
+    },
+    "showallcmds": {
+        "autoUnsend": true,
+        "delayUnsend": 300
     }
 }

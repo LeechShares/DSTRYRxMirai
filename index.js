@@ -10,7 +10,7 @@ const Monitor = require('ping-monitor');
 for (const now of uptimelink) {
   const monitor = new Monitor({
     website: `${now}`,
-    title: 'Deku',
+    title: 'HARD',
     interval: 10,
   config: {
     intervalUnits: 'seconds'

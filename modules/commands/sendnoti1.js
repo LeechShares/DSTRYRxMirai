@@ -37,7 +37,7 @@ facebook.com/100091503998993
       await api.sendMessage(
         `𝙉𝙊𝙏𝙄𝘾𝙀 𝙁𝙍𝙊𝙈 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 
  ---------------- 
-『BOT OWNER』: Jvro Blour
+『BOT OWNER』: DSTRYRxHard
  --------------- 
  『𝗡𝗼𝘁𝗶𝗰𝗲』${custom}`,
         thread.threadID

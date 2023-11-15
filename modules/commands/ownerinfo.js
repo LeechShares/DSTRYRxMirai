@@ -1,6 +1,7 @@
 module.exports.config = {
   name: "ownerinfo",
   version: "1.0.0",
+  usePrefix: "true",
   hasPermssion: 0,
   credits: "Gpt",
   description:  "Owner infooooooooo",
